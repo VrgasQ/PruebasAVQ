@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Changa', sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Estilos para la sección de información */
+.info-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    grid-template-rows: repeat(2, 300px) 350px; /* Dos filas de 300px y una fila de 350px */
+    gap: 15px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: 'Changa', sans-serif;
+}
+
+.info-box {
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilos para el cuadro grande */
+.info-box.large {
+    grid-column: 3 / 4; /* Ocupa la tercera columna */
+    grid-row: 1 / 3; /* Ocupa desde la primera hasta la segunda fila */
+    height: 100%; /* Altura completa */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 75, 0, 0.5); /* Verde con opacidad */
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+/* Ajustes para el título y párrafo */
+.content h2 {
+    font-size: 24px; /* Tamaño del texto del encabezado */
+    margin-bottom: 8px; /* Separación inferior reducida del título */
+    font-weight: 400; /* Grosor del título ajustado */
+    line-height: 1.2; /* Espaciado entre líneas del título */
+    text-decoration: underline; /* Añade el subrayado */
+    text-underline-offset: 6px; /* Ajusta la distancia del subrayado al texto */
+}
+
+.content p {
+    font-size: 15px; /* Tamaño de fuente ajustado */
+    font-weight: 300; /* Grosor del párrafo ajustado */
+    text-align: justify;
+    line-height: 1.4; /* Espaciado entre líneas reducido */
+    margin: 0; /* Eliminación de margen superior e inferior entre párrafos */
+}
+
+/* Estilos del botón de registro */
+.register-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    background-color: rgba(140, 172, 96, 1); /* Color cambiado */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0px;
+    font-weight: 200; /* Cambiar el grosor de la fuente */
+    font-size: 24px; /* Aumentar el tamaño del texto */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Responsividad */
+@media (max-width: 800px) {
+    .info-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .info-box.large {
+        grid-column: span 1;
+        grid-row: auto;
+    }
+}
