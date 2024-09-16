@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.team-section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem; /* Cambia el tamaño del título "TEAM" */
+    margin-bottom: 2rem;
+    color: #333; /* Color del título "TEAM" */
+    font-weight: 700; /* Grosor del título "TEAM" */
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: #e1e1e1;
+    font-family: "Inria Sans", sans-serif;
+    border-radius: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.team-member:hover .info {
+    opacity: 1;
+}
+
+.info h3 {
+    font-size: 0.9rem; /* Tamaño de letra para el nombre */
+    margin-bottom: 5px;
+    color: #ffffff; /* Color del nombre (dorado) */
+}
+
+.info p {
+    font-size: 0.9rem; /* Tamaño de letra para "Software Engineer" */
+    color: rgba(177, 177, 177, 1); /* Color del título "Software Engineer" */
+}
