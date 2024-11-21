@@ -1,0 +1,393 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "documentType": "DNI",
+      "documentNumber": "74558021",
+      "firstName": "Alexis",
+      "lastName": "Vargas",
+      "email": "a.varquispe@gmail.com",
+      "password": "prueba",
+      "upcomingInvoices": 5,
+      "recentInvoices": 3
+    }
+  ],
+  "carteras": [
+    {
+      "id": 1,
+      "numeroCartera": "001",
+      "cuentaCorriente": "2131231231231",
+      "fechaDescuento": "2024-11-12",
+      "diasPorAnio": "360",
+      "comisionActivacion": "20",
+      "comisionActivacionPeriodo": "Inicio",
+      "gastosAdministrativos": "21",
+      "gastosAdministrativosPeriodo": "Fin",
+      "portes": "10",
+      "portesPeriodo": "Fin",
+      "seguro": "0.40 %",
+      "seguroPeriodo": "Inicio",
+      "retencion": "5.00 %",
+      "retencionPeriodo": "Fin",
+      "teaCompensatoria": "22.37 %",
+      "moneda": "Soles",
+      "userId": "2"
+    }
+  ],
+  "letras": [
+    {
+      "id": 1,
+      "numeroPlanilla": 1,
+      "razonSocial": "Alexis",
+      "apellidoPaterno": "Vargas",
+      "apellidoMaterno": "Quispe",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 1,
+      "fechaGiro": "2024-11-03",
+      "fechaVencimiento": "2025-05-02",
+      "valorNominal": 12000,
+      "planillaId": 1
+    },
+    {
+      "id": 2,
+      "numeroPlanilla": 1,
+      "razonSocial": "Alexsi",
+      "apellidoPaterno": "Vagras ",
+      "apellidoMaterno": "Quispoe",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 2,
+      "fechaGiro": "2024-11-05",
+      "fechaVencimiento": "2025-02-03",
+      "valorNominal": 10600,
+      "planillaId": 1
+    },
+    {
+      "id": 3,
+      "numeroPlanilla": 1,
+      "razonSocial": "alexis",
+      "apellidoPaterno": "vargas",
+      "apellidoMaterno": "quispe",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 3,
+      "fechaGiro": "2024-11-06",
+      "fechaVencimiento": "2025-02-04",
+      "valorNominal": 10400,
+      "planillaId": 1
+    },
+    {
+      "id": 4,
+      "numeroPlanilla": 1,
+      "razonSocial": "asdasd",
+      "apellidoPaterno": "asdasd",
+      "apellidoMaterno": "dadasd",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 4,
+      "fechaGiro": "2024-11-04",
+      "fechaVencimiento": "2025-02-02",
+      "valorNominal": 14200,
+      "planillaId": 1
+    },
+    {
+      "id": 5,
+      "numeroPlanilla": 1,
+      "razonSocial": "asda",
+      "apellidoPaterno": "dadasda",
+      "apellidoMaterno": "adsadas",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "7458021",
+      "numeroLetra": 5,
+      "fechaGiro": "2024-11-07",
+      "fechaVencimiento": "2025-02-05",
+      "valorNominal": 11400,
+      "planillaId": 1
+    },
+    {
+      "id": 6,
+      "numeroPlanilla": 1,
+      "razonSocial": "asdas",
+      "apellidoPaterno": "dadad",
+      "apellidoMaterno": "asdadasd",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 6,
+      "fechaGiro": "2024-11-03",
+      "fechaVencimiento": "2025-05-02",
+      "valorNominal": 10700,
+      "planillaId": 1
+    },
+    {
+      "id": 7,
+      "numeroPlanilla": 1,
+      "razonSocial": "asdasd",
+      "apellidoPaterno": "asdasdad",
+      "apellidoMaterno": "sadadsd",
+      "tipoDocumento": "DNI",
+      "documentoIdentidad": "74558021",
+      "numeroLetra": 7,
+      "fechaGiro": "2024-11-05",
+      "fechaVencimiento": "2025-01-04",
+      "valorNominal": 11700,
+      "planillaId": 1
+    }
+  ],
+  "listado_de_letras": [
+    {
+      "id": "d00a",
+      "letras": [
+        {
+          "razonSocial": "Alexis",
+          "apellidoPaterno": "Vargas",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-03",
+          "fechaVencimiento": "2025-05-02",
+          "valorNominal": 12000,
+          "numeroDias": 171,
+          "tep": "10.064 %",
+          "d": "9.144%"
+        }
+      ]
+    },
+    {
+      "id": "79a4",
+      "letras": [
+        {
+          "razonSocial": "Alexsi",
+          "apellidoPaterno": "Vagras ",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-05",
+          "fechaVencimiento": "2025-02-03",
+          "valorNominal": 10600,
+          "numeroDias": 83,
+          "tep": "4.764 %",
+          "d": "4.547%"
+        }
+      ]
+    },
+    {
+      "id": "3c11",
+      "letras": [
+        {
+          "razonSocial": "alexis",
+          "apellidoPaterno": "vargas",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-06",
+          "fechaVencimiento": "2025-02-04",
+          "valorNominal": 10400,
+          "numeroDias": 84,
+          "tep": "4.823 %",
+          "d": "4.601%"
+        }
+      ]
+    },
+    {
+      "id": "4946",
+      "letras": [
+        {
+          "razonSocial": "asdasd",
+          "apellidoPaterno": "asdasd",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-04",
+          "fechaVencimiento": "2025-02-02",
+          "valorNominal": 14200,
+          "numeroDias": 82,
+          "tep": "4.706 %",
+          "d": "4.494%"
+        }
+      ]
+    },
+    {
+      "id": "02ac",
+      "letras": [
+        {
+          "razonSocial": "asda",
+          "apellidoPaterno": "dadasda",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "7458021",
+          "fechaGiro": "2024-11-07",
+          "fechaVencimiento": "2025-02-05",
+          "valorNominal": 11400,
+          "numeroDias": 85,
+          "tep": "4.882 %",
+          "d": "4.655%"
+        }
+      ]
+    },
+    {
+      "id": "63be",
+      "letras": [
+        {
+          "razonSocial": "asdas",
+          "apellidoPaterno": "dadad",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-03",
+          "fechaVencimiento": "2025-05-02",
+          "valorNominal": 10700,
+          "numeroDias": 171,
+          "tep": "10.064 %",
+          "d": "9.144%"
+        }
+      ]
+    },
+    {
+      "id": "fcb5",
+      "letras": [
+        {
+          "razonSocial": "asdasd",
+          "apellidoPaterno": "asdasdad",
+          "tipoDocumento": "DNI",
+          "documentoIdentidad": "74558021",
+          "fechaGiro": "2024-11-05",
+          "fechaVencimiento": "2025-01-04",
+          "valorNominal": 11700,
+          "numeroDias": 53,
+          "tep": "3.017 %",
+          "d": "2.929%"
+        }
+      ]
+    }
+  ],
+  "reporte": [
+    {
+      "id": "6d4e",
+      "reporte": [
+        {
+          "numero": 0,
+          "fechaGiro": null,
+          "fechaVencimiento": "2024-11-12",
+          "valorNominal": null,
+          "descuento": null,
+          "costoInicial": null,
+          "costoFinal": null,
+          "seguro": null,
+          "retencion": null,
+          "valorNeto": null,
+          "valorRecibir": null,
+          "flujo": "72169.10",
+          "tcea": null,
+          "descargable": false
+        },
+        {
+          "numero": 1,
+          "fechaGiro": "2024-11-03",
+          "fechaVencimiento": "2025-05-02",
+          "valorNominal": 12000,
+          "descuento": "1097.26",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "22.80",
+          "retencion": "600.00",
+          "valorNeto": "10902.74",
+          "valorRecibir": "10259.94",
+          "flujo": "11431.00",
+          "tcea": "25.6665%",
+          "descargable": true
+        },
+        {
+          "numero": 2,
+          "fechaGiro": "2024-11-05",
+          "fechaVencimiento": "2025-02-03",
+          "valorNominal": 10600,
+          "descuento": "482.06",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "9.78",
+          "retencion": "530.00",
+          "valorNeto": "10117.94",
+          "valorRecibir": "9558.16",
+          "flujo": "10101.00",
+          "tcea": "27.3461%",
+          "descargable": true
+        },
+        {
+          "numero": 3,
+          "fechaGiro": "2024-11-06",
+          "fechaVencimiento": "2025-02-04",
+          "valorNominal": 10400,
+          "descuento": "478.53",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "9.71",
+          "retencion": "520.00",
+          "valorNeto": "9921.47",
+          "valorRecibir": "9371.76",
+          "flujo": "9911.00",
+          "tcea": "27.3696%",
+          "descargable": true
+        },
+        {
+          "numero": 4,
+          "fechaGiro": "2024-11-04",
+          "fechaVencimiento": "2025-02-02",
+          "valorNominal": 14200,
+          "descuento": "638.18",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "12.94",
+          "retencion": "710.00",
+          "valorNeto": "13561.82",
+          "valorRecibir": "12818.88",
+          "flujo": "13521.00",
+          "tcea": "26.5836%",
+          "descargable": true
+        },
+        {
+          "numero": 5,
+          "fechaGiro": "2024-11-07",
+          "fechaVencimiento": "2025-02-05",
+          "valorNominal": 11400,
+          "descuento": "530.64",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "10.77",
+          "retencion": "570.00",
+          "valorNeto": "10869.36",
+          "valorRecibir": "10268.59",
+          "flujo": "10861.00",
+          "tcea": "27.0615%",
+          "descargable": true
+        },
+        {
+          "numero": 6,
+          "fechaGiro": "2024-11-03",
+          "fechaVencimiento": "2025-05-02",
+          "valorNominal": 10700,
+          "descuento": "978.39",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "20.33",
+          "retencion": "535.00",
+          "valorNeto": "9721.61",
+          "valorRecibir": "9146.28",
+          "flujo": "10196.00",
+          "tcea": "25.8305%",
+          "descargable": true
+        },
+        {
+          "numero": 7,
+          "fechaGiro": "2024-11-05",
+          "fechaVencimiento": "2025-01-04",
+          "valorNominal": 11700,
+          "descuento": "342.62",
+          "costoInicial": "20.00",
+          "costoFinal": "31.00",
+          "seguro": "6.89",
+          "retencion": "585.00",
+          "valorNeto": "11357.38",
+          "valorRecibir": "10745.49",
+          "flujo": "11146.00",
+          "tcea": "28.6098%",
+          "descargable": true
+        }
+      ]
+    }
+  ]
+}
